@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FlappyBird.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>File di origine</Filter>
     </ClCompile>
   </ItemGroup>
@@ -23,15 +23,11 @@
     <ClInclude Include="resource.h">
       <Filter>File di intestazione</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="FlappyBird.rc">
-      <Filter>File di risorse</Filter>
-    </ResourceCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="..\..\..\..\..\..\Users\Francesco\Downloads\backGround.png">
-      <Filter>File di risorse</Filter>
-    </Image>
+    <ClInclude Include="Bird.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

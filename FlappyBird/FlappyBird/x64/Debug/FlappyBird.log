@@ -1,2 +1,15 @@
 ﻿  main.cpp
-  FlappyBird.vcxproj -> C:\Shared\C-C++\C++\FlappyBird\FlappyBird\x64\Debug\FlappyBird.exe
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\Bird.h(44,14): error C3083: 'this_thread': il simbolo a sinistra di '::' deve essere un tipo
+  (compilazione del file di origine 'main.cpp')
+  
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\Bird.h(44,27): error C2039: 'sleep_for': non è un membro di 'std'
+  (compilazione del file di origine 'main.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.41.34120\include\iostream(18,1):
+      vedere la dichiarazione di 'std'
+  
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\Bird.h(44,37): error C3688: suffisso letterale 's' non valido; l'operatore di valori letterali o il modello di operatore di valori letterali 'operatore ""s' non è stato trovato
+  (compilazione del file di origine 'main.cpp')
+  
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\Bird.h(44,27): error C3861: 'sleep_for': identificatore non trovato
+  (compilazione del file di origine 'main.cpp')
+  

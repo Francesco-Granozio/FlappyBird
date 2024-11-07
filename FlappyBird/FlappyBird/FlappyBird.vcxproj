@@ -140,6 +140,8 @@
   <ItemGroup>
     <ClInclude Include="BackGround.h" />
     <ClInclude Include="Bird.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="incudes.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

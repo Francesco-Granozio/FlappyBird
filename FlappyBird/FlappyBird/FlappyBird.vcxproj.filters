@@ -29,5 +29,11 @@
     <ClInclude Include="BackGround.h">
       <Filter>File di intestazione</Filter>
     </ClInclude>
+    <ClInclude Include="incudes.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

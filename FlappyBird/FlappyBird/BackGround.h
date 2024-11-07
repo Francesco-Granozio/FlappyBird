@@ -1,8 +1,10 @@
 #pragma once
 
 #include <SFML/Graphics.hpp>
+#include <SFML/Window.hpp>
+#include <SFML/System.hpp>
+#include <filesystem>
 #include <iostream>
-
 
 class Background {
 private:
@@ -10,8 +12,8 @@ private:
     sf::Texture m_Texture;
 
 public:
-    Background() {
-        if (!m_Texture.loadFromFile("assets/images/background.png")) {
+    Background(const std::filesystem::path& file) {
+        if (!m_Texture.loadFromFile(file.string())) {
             std::cout << "Cannot load background img!\n";
         }
 

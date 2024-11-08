@@ -2,16 +2,11 @@
 class State
 {
 public:
-	virtual void Init() = 0;
-
-	virtual void HandleInput() = 0;
-
-	virtual void Update(float dt) = 0;
-
-	virtual void Init(float dt) = 0;
-
-	virtual void Pause() = 0;
-
-	virtual void Resume() = 0;
+	virtual void init() = 0;
+	virtual void handleInput() = 0;
+	virtual void update(float dt) = 0;
+	virtual void draw(float dt) = 0;
+	virtual void pause() = 0;
+	virtual void resume() = 0;
 };
 

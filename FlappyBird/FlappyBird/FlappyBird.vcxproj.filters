@@ -24,6 +24,12 @@
     <ClCompile Include="StateStack.cpp">
       <Filter>File di origine</Filter>
     </ClCompile>
+    <ClCompile Include="AssetsManger.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
@@ -33,6 +39,12 @@
       <Filter>File di intestazione</Filter>
     </ClInclude>
     <ClInclude Include="StateStack.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetsManger.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
       <Filter>File di intestazione</Filter>
     </ClInclude>
   </ItemGroup>

@@ -10,21 +10,12 @@ class StateStack
 
 public:
 
-	StateStack() {
-
-	}
-
-	~StateStack() {
-
-	}
-
-	void AddState(std::unique_ptr<State> newState, bool isReplacing = true);
-
-	void RemoveState();
-
-	void ProcessStateChanges();
-
-	std::unique_ptr<State>& GetActiveState();
+	StateStack() { }
+	~StateStack() { }
+	void addState(std::unique_ptr<State> newState, bool isReplacing = true);
+	void removeState();
+	void processStateChanges();
+	std::unique_ptr<State>& getActiveState();
 
 private:
 	std::stack <std::unique_ptr<State>> m_States;

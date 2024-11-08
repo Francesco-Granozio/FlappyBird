@@ -1,5 +1,42 @@
-﻿  main.cpp
-C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\Game.h(138,21): warning C4244: 'inizializzazione': conversione da 'int' a 'float'. Possibile perdita di dati.
-  (compilazione del file di origine 'main.cpp')
-  
+﻿  AssetsManger.cpp
+  InputManager.cpp
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\InputManager.cpp(9,54): warning C4244: 'argomento': conversione da 'T' a 'T'. Possibile perdita di dati.
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\InputManager.cpp(9,54): warning C4244:         with
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\InputManager.cpp(9,54): warning C4244:         [
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\InputManager.cpp(9,54): warning C4244:             T=float
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\InputManager.cpp(9,54): warning C4244:         ]
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\InputManager.cpp(9,54): warning C4244:         and
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\InputManager.cpp(9,54): warning C4244:         [
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\InputManager.cpp(9,54): warning C4244:             T=int
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\InputManager.cpp(9,54): warning C4244:         ]
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\InputManager.cpp(9,25): warning C4244: 'argomento': conversione da 'T' a 'T'. Possibile perdita di dati.
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\InputManager.cpp(9,25): warning C4244:         with
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\InputManager.cpp(9,25): warning C4244:         [
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\InputManager.cpp(9,25): warning C4244:             T=float
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\InputManager.cpp(9,25): warning C4244:         ]
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\InputManager.cpp(9,25): warning C4244:         and
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\InputManager.cpp(9,25): warning C4244:         [
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\InputManager.cpp(9,25): warning C4244:             T=int
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\InputManager.cpp(9,25): warning C4244:         ]
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\InputManager.cpp(8,61): warning C4244: 'argomento': conversione da 'const T' a 'T'. Possibile perdita di dati.
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\InputManager.cpp(8,61): warning C4244:         with
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\InputManager.cpp(8,61): warning C4244:         [
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\InputManager.cpp(8,61): warning C4244:             T=float
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\InputManager.cpp(8,61): warning C4244:         ]
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\InputManager.cpp(8,61): warning C4244:         and
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\InputManager.cpp(8,61): warning C4244:         [
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\InputManager.cpp(8,61): warning C4244:             T=int
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\InputManager.cpp(8,61): warning C4244:         ]
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\InputManager.cpp(8,40): warning C4244: 'argomento': conversione da 'const T' a 'T'. Possibile perdita di dati.
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\InputManager.cpp(8,40): warning C4244:         with
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\InputManager.cpp(8,40): warning C4244:         [
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\InputManager.cpp(8,40): warning C4244:             T=float
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\InputManager.cpp(8,40): warning C4244:         ]
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\InputManager.cpp(8,40): warning C4244:         and
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\InputManager.cpp(8,40): warning C4244:         [
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\InputManager.cpp(8,40): warning C4244:             T=int
+C:\Shared\C-C++\C++\FlappyBird\FlappyBird\FlappyBird\InputManager.cpp(8,40): warning C4244:         ]
+  State.cpp
+  StateStack.cpp
+  Generazione del codice in corso...
   FlappyBird.vcxproj -> C:\Shared\C-C++\C++\FlappyBird\FlappyBird\x64\Debug\FlappyBird.exe

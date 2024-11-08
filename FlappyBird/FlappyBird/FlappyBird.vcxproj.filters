@@ -39,6 +39,12 @@
     <ClCompile Include="Definitions.cpp">
       <Filter>File di origine</Filter>
     </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverState.cpp">
+      <Filter>File di origine</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
@@ -66,6 +72,12 @@
       <Filter>File di intestazione</Filter>
     </ClInclude>
     <ClInclude Include="GameData.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>File di intestazione</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverState.h">
       <Filter>File di intestazione</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,10 +1,11 @@
 #pragma once
 
 #include "MainMenuState.h"
-#include <iostream>
+#include "GameState.h"
 
 
-MainMenuState::MainMenuState(std::shared_ptr<GameData> data) : m_Data(data)
+MainMenuState::MainMenuState(std::shared_ptr<GameData> data) 
+	: m_Data(data)
 {
 
 }
@@ -16,13 +17,10 @@ void MainMenuState::init()
 	this->m_Data->assetsManger.loadTexture("Play Button", PLAY_BUTTON_FILEPATH);
 
 	m_Background.setTexture(this->m_Data->assetsManger.getTexture("Main Menu Background"));
-	m_Background.setScale(0.5f, 0.5f);
 
 	m_Title.setTexture(this->m_Data->assetsManger.getTexture("Game Title"));
-	m_Title.setScale(0.5f, 0.5f);
 
 	m_PlayButton.setTexture(this->m_Data->assetsManger.getTexture("Play Button"));
-	m_PlayButton.setScale(0.5f, 0.5f);
 
 	m_Title.setPosition((static_cast<float>(SCREEN_WIDTH) / 2) - (m_Title.getGlobalBounds().width / 2), m_Title.getGlobalBounds().height / 2);
 	m_PlayButton.setPosition((static_cast<float>(SCREEN_WIDTH) / 2) - (m_PlayButton.getGlobalBounds().width / 2), (static_cast<float>(SCREEN_HEIGHT) / 2) - (m_PlayButton.getGlobalBounds().height / 2));
@@ -39,7 +37,10 @@ void MainMenuState::handleInput()
 			this->m_Data->window.close();
 		}
 
-		
+		if (this->m_Data->inputManager.isSpriteClicked(this->m_PlayButton, sf::Mouse::Left, this->m_Data->window))
+		{
+			this->m_Data->stateStack.addState(std::make_unique<GameState>(GameState(m_Data)), true);
+		}
 	}
 }
 

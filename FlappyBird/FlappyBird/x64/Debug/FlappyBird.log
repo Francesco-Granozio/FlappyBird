@@ -1,6 +1,12 @@
 ﻿  Definitions.cpp
   Game.cpp
-  MainMenuState.cpp
+  GameOverState.cpp
+  GameState.cpp
   main.cpp
+  MainMenuState.cpp
   Generazione del codice in corso...
+AssetsManger.obj : warning LNK4099: impossibile trovare il PDB '' con 'AssetsManger.obj' o in ''; oggetto collegato senza informazioni di debug
+InputManager.obj : warning LNK4099: impossibile trovare il PDB '' con 'InputManager.obj' o in ''; oggetto collegato senza informazioni di debug
+State.obj : warning LNK4099: impossibile trovare il PDB '' con 'State.obj' o in ''; oggetto collegato senza informazioni di debug
+StateStack.obj : warning LNK4099: impossibile trovare il PDB '' con 'StateStack.obj' o in ''; oggetto collegato senza informazioni di debug
   FlappyBird.vcxproj -> C:\Shared\C-C++\C++\FlappyBird\FlappyBird\x64\Debug\FlappyBird.exe

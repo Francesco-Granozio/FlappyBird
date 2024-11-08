@@ -1,7 +1,7 @@
 #include "AssetsManger.h"
 
 
-void AssetsManger::loadTexture(const char* textureName, const char* fileName) {
+void AssetsManager::loadTexture(const char* textureName, const char* fileName) {
 
 	sf::Texture tmpTexture;
 
@@ -11,12 +11,12 @@ void AssetsManger::loadTexture(const char* textureName, const char* fileName) {
 	}
 }
 
-sf::Texture& AssetsManger::getTexture(const char* textureName) {
+sf::Texture& AssetsManager::getTexture(const char* textureName) {
 
 	return this->m_Textures[textureName];
 }
 
-void AssetsManger::loadFont(const char* fontName, const char* fileName) {
+void AssetsManager::loadFont(const char* fontName, const char* fileName) {
 
 	sf::Font tmpFont;
 
@@ -26,7 +26,7 @@ void AssetsManger::loadFont(const char* fontName, const char* fileName) {
 	}
 }
 
-sf::Font& AssetsManger::getFont(const char* fontName) {
+sf::Font& AssetsManager::getFont(const char* fontName) {
 
 	return this->m_Fonts[fontName];
 

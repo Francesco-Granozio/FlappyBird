@@ -1,10 +1,14 @@
 #include "Game.h"
 
+#include <stdlib.h>
+
 Game::Game(int width, int height, const char* title) {
+
+	srand(time(NULL));
 
 	m_Data->window.create(sf::VideoMode(width, height), title, sf::Style::Close | sf::Style::Titlebar);
 	m_Data->stateStack.addState(std::make_unique<MainMenuState>(this->m_Data), true);
-	//this->run();
+	
 }
 
 void Game::run()

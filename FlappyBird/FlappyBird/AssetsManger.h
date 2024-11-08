@@ -3,11 +3,11 @@
 #include <map>
 #include <SFML/Graphics.hpp>
 
-class AssetsManger
+class AssetsManager
 {
 public:
-	AssetsManger() { }
-	~AssetsManger() { }
+	AssetsManager() { }
+	~AssetsManager() { }
 	void loadTexture(const char* textureName, const char* fileName);
 	sf::Texture& getTexture(const char* textureName);
 	void loadFont(const char* fontName, const char* fileName);

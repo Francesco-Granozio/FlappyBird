@@ -5,6 +5,7 @@
 #include "Game.h"
 #include "GameData.h"
 #include "Pipe.h"
+#include "Land.h"
 
 class GameState : public State
 {
@@ -24,5 +25,8 @@ private:
 
 	Pipe* m_Pipe = nullptr;
 	sf::Clock m_Clock;
+
+	Land* m_Land = nullptr;
+
 };
 

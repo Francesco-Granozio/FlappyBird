@@ -7,6 +7,6 @@
 struct GameData {
     StateStack stateStack;
     sf::RenderWindow window;
-    AssetsManger assetsManger;
+    AssetsManager assetsManager;
     InputManager inputManager;
 };

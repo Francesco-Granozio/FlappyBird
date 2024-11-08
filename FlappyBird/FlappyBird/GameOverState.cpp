@@ -11,9 +11,9 @@ GameOverState::GameOverState(std::shared_ptr<GameData> data)
 void GameOverState::init()
 {
 
-    this->m_Data->assetsManger.loadTexture("Game Over Background", GAME_OVER_BG_FILEPATH);
+    this->m_Data->assetsManager.loadTexture("Game Over Background", GAME_OVER_BG_FILEPATH);
 
-    m_Background.setTexture(this->m_Data->assetsManger.getTexture("Game Over Background"));
+    m_Background.setTexture(this->m_Data->assetsManager.getTexture("Game Over Background"));
 
 }
 

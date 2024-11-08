@@ -12,15 +12,15 @@ MainMenuState::MainMenuState(std::shared_ptr<GameData> data)
 
 void MainMenuState::init()
 {
-	this->m_Data->assetsManger.loadTexture("Main Menu Background", MAIN_MENU_BG_FILEPATH);
-	this->m_Data->assetsManger.loadTexture("Game Title", GAME_TITLE_FILEPATH);
-	this->m_Data->assetsManger.loadTexture("Play Button", PLAY_BUTTON_FILEPATH);
+	this->m_Data->assetsManager.loadTexture("Main Menu Background", MAIN_MENU_BG_FILEPATH);
+	this->m_Data->assetsManager.loadTexture("Game Title", GAME_TITLE_FILEPATH);
+	this->m_Data->assetsManager.loadTexture("Play Button", PLAY_BUTTON_FILEPATH);
 
-	m_Background.setTexture(this->m_Data->assetsManger.getTexture("Main Menu Background"));
+	m_Background.setTexture(this->m_Data->assetsManager.getTexture("Main Menu Background"));
 
-	m_Title.setTexture(this->m_Data->assetsManger.getTexture("Game Title"));
+	m_Title.setTexture(this->m_Data->assetsManager.getTexture("Game Title"));
 
-	m_PlayButton.setTexture(this->m_Data->assetsManger.getTexture("Play Button"));
+	m_PlayButton.setTexture(this->m_Data->assetsManager.getTexture("Play Button"));
 
 	m_Title.setPosition((static_cast<float>(SCREEN_WIDTH) / 2) - (m_Title.getGlobalBounds().width / 2), m_Title.getGlobalBounds().height / 2);
 	m_PlayButton.setPosition((static_cast<float>(SCREEN_WIDTH) / 2) - (m_PlayButton.getGlobalBounds().width / 2), (static_cast<float>(SCREEN_HEIGHT) / 2) - (m_PlayButton.getGlobalBounds().height / 2));

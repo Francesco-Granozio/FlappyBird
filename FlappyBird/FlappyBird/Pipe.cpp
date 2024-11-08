@@ -1,13 +1,15 @@
 #include "Pipe.h"
 
 Pipe::Pipe(std::shared_ptr<GameData> data)
-	: m_Data(data) {
+	: m_Data(data),
+	m_LandHeight(data->assetsManager.getTexture("Land").getSize().y),
+	m_PipeSpawnYOffset(0) {
 
 }
 
 void Pipe::spawnBottomPipe()
 {
-	sf::Sprite sprite(this->m_Data->assetsManger.getTexture("Pipe Up"));
+	sf::Sprite sprite(this->m_Data->assetsManager.getTexture("Pipe Up"));
 
 	sprite.setPosition(this->m_Data->window.getSize().x,
 		this->m_Data->window.getSize().y - sprite.getLocalBounds().height - m_PipeSpawnYOffset);
@@ -18,7 +20,7 @@ void Pipe::spawnBottomPipe()
 
 void Pipe::spawnTopPipe()
 {
-	sf::Sprite sprite(this->m_Data->assetsManger.getTexture("Pipe Down"));
+	sf::Sprite sprite(this->m_Data->assetsManager.getTexture("Pipe Down"));
 
 	sprite.setPosition(this->m_Data->window.getSize().x, -m_PipeSpawnYOffset);
 
@@ -28,7 +30,7 @@ void Pipe::spawnTopPipe()
 
 void Pipe::spawnInvisiblePipe()
 {
-	sf::Sprite sprite(this->m_Data->assetsManger.getTexture("Pipe Down"));
+	sf::Sprite sprite(this->m_Data->assetsManager.getTexture("Pipe Down"));
 
 	sprite.setPosition(this->m_Data->window.getSize().x, -m_PipeSpawnYOffset);
 	sprite.setColor(sf::Color(0, 0, 0, 0));
@@ -75,7 +77,7 @@ void Pipe::drawPipes()
 
 void Pipe::randomisePipeOffset()
 {
-
+	m_PipeSpawnYOffset = rand() % (m_LandHeight + 1);
 }
 
 

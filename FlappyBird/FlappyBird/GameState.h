@@ -4,6 +4,7 @@
 #include "State.h"
 #include "Game.h"
 #include "GameData.h"
+#include "Pipe.h"
 
 class GameState : public State
 {
@@ -21,5 +22,7 @@ private:
 	std::shared_ptr<GameData> m_Data;
 	sf::Sprite m_Background;
 
+	Pipe* m_Pipe = nullptr;
+	sf::Clock m_Clock;
 };
 

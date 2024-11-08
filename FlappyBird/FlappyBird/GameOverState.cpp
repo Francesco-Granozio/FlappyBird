@@ -2,6 +2,7 @@
 #include "Definitions.h"
 
 GameOverState::GameOverState(std::shared_ptr<GameData> data)
+    : m_Data(data)
 {
 
 }

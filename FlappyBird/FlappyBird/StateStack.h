@@ -10,7 +10,8 @@ class StateStack
 
 public:
 
-	StateStack() { }
+	StateStack() : 
+		m_IsRemoving(false), m_IsAdding(false), m_IsReplacing(false) { }
 	~StateStack() { }
 	void addState(std::unique_ptr<State> newState, bool isReplacing = true);
 	void removeState();
